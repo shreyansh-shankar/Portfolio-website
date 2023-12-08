@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    background-color: black;
+}
+
+nav {
+    background-color: rgb(26, 26, 26);
+    display: grid;
+    grid-template-columns: 5vw 10vw 30vw;
+    grid-template-rows: 75px;
+    gap: 1vw;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    grid-column: 1;
+    margin: auto;
+    width: 75%;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
